@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head><link href="Logo.jpg" rel="icon" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SeaBirds - The Messaging Platform</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+<style> img[src*="Banner.png"] { display: none;} </style>
+    <header>
+    </header>
+    
+    <div id="chat">
+      <!-- messages will display here -->
+      <ul id="messages"></ul>
+
+      <!-- form to send message -->
+      <form id="message-form">
+        <input id="message-input" type="text" />
+        <button id="message-btn" type="submit">Send</button>
+      </form>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="Functions.js"></script>
+    </body>
+</html>
+
+
